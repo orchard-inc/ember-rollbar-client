@@ -13,7 +13,7 @@ export function initialize(appInstance) {
     }
 
     if (!enabled || Ember.testing) {
-      throw args[0];
+      console.log(args[0]);
     }
   };
 }
